@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('fonts/proxima_nova_font-webfont.woff2') format('woff2'),
+    url('fonts/proxima_nova_font-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Proxima Nova', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: rgb(113,76,74);
+    background: -moz-linear-gradient(270deg, rgba(113,76,74,1) 0%, rgba(52,58,92,1) 50%, rgba(37,42,62,1) 100%);
+    background: -webkit-linear-gradient(270deg, rgba(113,76,74,1) 0%, rgba(52,58,92,1) 50%, rgba(37,42,62,1) 100%);
+    background: linear-gradient(270deg, rgba(113,76,74,1) 0%, rgba(52,58,92,1) 50%, rgba(37,42,62,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#714c4a",endColorstr="#252a3e",GradientType=1);
+}
